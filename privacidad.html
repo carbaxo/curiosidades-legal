@@ -25,7 +25,7 @@ agregados y los trata Cloudflare.</li>
 <li><b>"Me gusta":</b> para no contar dos veces al mismo visitante se guarda un identificador anónimo (una huella calculada
 con la IP y el navegador y una clave secreta). No se guarda la IP.</li>
 <li><b>Formulario "Propón un tema":</b> el correo es obligatorio; también se guarda el tema, el detalle y, si lo indicas,
-tu nombre o usuario. Se conservan en la base de datos SQLite del servidor del canal, solo el equipo puede verlos desde la
+tu nombre o usuario. Se conservan en la base de datos SQLite del servidor del canal junto con la fecha y versión del consentimiento; solo el equipo puede verlos desde la
 administración y se usan para valorar la propuesta y contactarte sobre ella, nunca para publicidad. Para limitar el spam
 también se conserva un identificador anónimo calculado con la IP y el navegador (la IP no se guarda). Si están activados
 los avisos internos por correo, la propuesta se envía al buzón de administración mediante el proveedor de correo. Puedes
