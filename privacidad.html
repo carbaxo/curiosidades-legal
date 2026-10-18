@@ -2,7 +2,7 @@
 <title>Política de privacidad · Curiosidades de la Ingeniería</title>
 <style>body{font-family:system-ui,sans-serif;max-width:720px;margin:40px auto;padding:0 16px;line-height:1.6;color:#222;background:#faf6ee}h1{color:#c0392b}h2{margin-top:2em}small{color:#666}</style></head><body>
 <h1>Política de privacidad</h1>
-<p><small>Última actualización: 2 de octubre de 2026</small></p>
+<p><small>Última actualización: 18 de octubre de 2026</small></p>
 <p>"Curiosidades de la Ingeniería Uploader" (la "herramienta") es una utilidad de uso personal que funciona solo en el
 ordenador del creador del canal <a href="https://www.youtube.com/@CuriosidadesDeIngenieria">Curiosidades de la
 Ingeniería</a> para subir los vídeos del canal a su propia cuenta de TikTok.</p>
@@ -24,8 +24,12 @@ países, navegadores y webs llegan. Según Cloudflare, no usa cookies ni identif
 agregados y los trata Cloudflare.</li>
 <li><b>"Me gusta":</b> para no contar dos veces al mismo visitante se guarda un identificador anónimo (una huella calculada
 con la IP y el navegador y una clave secreta). No se guarda la IP.</li>
-<li><b>Formulario "Propón un tema":</b> se guarda lo que escribas (el tema, el detalle y, si quieres, un nombre o usuario)
-junto con ese identificador anónimo, solo para valorar la propuesta y limitar el spam.</li>
+<li><b>Formulario "Propón un tema":</b> el correo es obligatorio; también se guarda el tema, el detalle y, si lo indicas,
+tu nombre o usuario. Se conservan en la base de datos SQLite del servidor del canal, solo el equipo puede verlos desde la
+administración y se usan para valorar la propuesta y contactarte sobre ella, nunca para publicidad. Para limitar el spam
+también se conserva un identificador anónimo calculado con la IP y el navegador (la IP no se guarda). Si están activados
+los avisos internos por correo, la propuesta se envía al buzón de administración mediante el proveedor de correo. Puedes
+pedir que borremos tu propuesta y los datos asociados escribiendo por el canal de contacto.</li>
 <li><b>Vídeos:</b> los vídeos se muestran desde YouTube en modo de privacidad mejorada y no se carga nada de YouTube hasta que
 pulsas reproducir.</li>
 <li><b>Alojamiento:</b> el sitio se aloja en un servidor del propio creador y recibe el tráfico a través de Cloudflare, que
@@ -43,6 +47,8 @@ returned by TikTok Login solely to upload the channel's own videos to its own Ti
 the tool uses no servers of its own, cookies, analytics or ads, and no data is sold or shared. Access can be revoked at any
 time in the TikTok app settings.</p>
 <p>The channel's website (curiosidadesdelaingenieria.com) is separate: it uses Cloudflare Web Analytics (aggregate visit
-counts; no cookies according to Cloudflare), stores anonymous like counts and topic suggestions you choose to submit, loads
-YouTube videos only when you press play, and does not use ads or sell data.</p>
+counts; no cookies according to Cloudflare), stores anonymous like counts and topic suggestions. Topic suggestions require
+an email address, stored with the proposal in the channel's private server database and used only to review it and contact
+you about it, not for advertising. You can request deletion through the channel's YouTube contact link. YouTube videos load
+only when you press play; the site uses no ads and does not sell data.</p>
 </body></html>
